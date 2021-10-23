@@ -1,0 +1,61 @@
+body {
+    background-color: #9c8b27;
+  }
+  
+  .container {
+    background-color: #27bd59d2;
+    margin: auto;
+    border: 10px groove #22a2b998;
+    border-radius: 10px;
+    max-width: 275px;
+    padding: 2%;
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  .grid-container,
+  .button-container,
+  .palette-container,
+  .picture-container, 
+  .save-container{
+    text-align: center;
+  }
+  
+  .row {
+    display: inline-block;
+  }
+  
+  .square,
+  .saveSquare {
+    background-color: white;
+    border: 1px solid black;
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+  
+  .circle {
+    display: inline-block;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin: 4px;
+  }
+  .picture-container img {
+    max-height: 200px;
+    max-width: 300px;
+    border-radius: 10px;
+
+  }
+
+.grid-container{
+  position: absolute;
+  top:0%;
+  left: 50%;
+margin: 12.75%;
+}
+.save-container {
+  position: absolute;
+  top: 0%;
+  left: 10.5%;
+  margin: 12.75%;
+}
